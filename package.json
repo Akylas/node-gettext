@@ -21,7 +21,7 @@
     "node": "*"
   },
   "dependencies": {
-    "node-po": "https://github.com/dodo/node-po/tarball/master",
+    "node-po": "git://github.com/highfellow/node-po.git",
     "async": "0.1.x"
   },
   "devDependencies": {
