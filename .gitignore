@@ -1,0 +1,6 @@
+# vi swap files
+*.swp
+
+# node_modules directory.
+node_modules
+
