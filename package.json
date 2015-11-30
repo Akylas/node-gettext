@@ -2,10 +2,10 @@
   "name": "gettext",
   "description": "A GNU gettext implementation for node.js",
   "version": "0.0.1",
-  "homepage": "http://github.com/DanielBaulig/node-gettext",
+  "homepage": "http://github.com/daxtero/node-gettext",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DanielBaulig/node-gettext.git"
+    "url": "git://github.com/daxtero/node-gettext.git"
   },
   "author": "Daniel Baulig <daniel.baulig@gmx.de> (http://www.danielbaulig.de)",
   "contributors": ["dodo (https://github.com/dodo)"],
