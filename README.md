@@ -1,4 +1,4 @@
-node-gettext
+electron-gettext
 ============
 
 An adaption of Joshua I. Miller's Javascript Gettext library for node.js.
@@ -9,7 +9,7 @@ An adaption of Joshua I. Miller's Javascript Gettext library for node.js.
 * Batch loading of entire translation directory trees
 * LGPL licensed
 
-node-gettext brings the power of the GNU gettext API to your node.js application.
+electron-gettext brings the power of the GNU gettext API to your node.js application.
 
 Usage
 -----
@@ -36,7 +36,7 @@ Install
 
 Install via npm
 
-        npm install gettext
+        npm install electron-gettext
 
 Documentation
 -------------
@@ -88,15 +88,17 @@ For a more detailed documentation please have a look at the [original Javascript
 Attribution
 -----------
 
-This library is based in wide parts on [Joshua I. Miller's Javascript Gettext library](http://jsgettext.berlios.de/).
+This library is based in wide parts on [Joshua I. Miller's Javascript Gettext library](http://jsgettext.berlios.de/)
+and [Daniel Baulig's node-gettext] (http://www.danielbaulig.de).
 
 License
 -------
 
-    node-gettext, an Javascript Gettext adaption for node.js
+    electron-gettext, an Javascript Gettext adaption for node.js
 
     Copyright (C) 2008 Joshua I. Miller <unrtst@cpan.org>
     Copyright (C) 2011 Daniel Baulig <daniel.baulig@gmx.de>
+    Copyright (C) 2015 André Meyerjürgens <ameyerjuergens@gmail.com>
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
