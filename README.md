@@ -85,6 +85,10 @@ Documentation
 
 For a more detailed documentation please have a look at the [original Javascript Gettext library documentation](http://jsgettext.berlios.de/doc/html/Gettext.html).
 
+* `import(Object)` - Imports the parsed translations into gettext (this will make `loadLanguageFile` or `loadLocaleDirectory` unnecessary). E.g. you can parse PO files in a build job or at first start of your application and saves parsed json on disk. From your second start of application you can load json file and only imports this json object into electron-gettext. 
+
+* `export()` - Exports the parsed translations from gettext. This could you do e.g. in a build job or at first start of your application. PO Files will normally not change in usage of your application. 
+
 Attribution
 -----------
 
