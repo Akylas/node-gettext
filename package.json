@@ -1,5 +1,5 @@
 {
-  "name": "electron-gettext",
+  "name": "gettext",
   "description": "A GNU gettext implementation for node.js",
   "version": "0.0.1",
   "homepage": "http://github.com/daxtero/electron-gettext",
