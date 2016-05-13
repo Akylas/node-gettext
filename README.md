@@ -1,4 +1,4 @@
-node-gettext
+electron-gettext
 ============
 
 An adaption of Joshua I. Miller's Javascript Gettext library for node.js.
@@ -9,7 +9,7 @@ An adaption of Joshua I. Miller's Javascript Gettext library for node.js.
 * Batch loading of entire translation directory trees
 * LGPL licensed
 
-node-gettext brings the power of the GNU gettext API to your node.js application.
+electron-gettext brings the power of the GNU gettext API to your node.js application.
 
 Usage
 -----
@@ -36,7 +36,7 @@ Install
 
 Install via npm
 
-        npm install gettext
+        npm install electron-gettext
 
 Documentation
 -------------
@@ -85,18 +85,24 @@ Documentation
 
 For a more detailed documentation please have a look at the [original Javascript Gettext library documentation](http://jsgettext.berlios.de/doc/html/Gettext.html).
 
+* `import(Object)` - Imports the parsed translations into gettext (this will make `loadLanguageFile` or `loadLocaleDirectory` unnecessary). E.g. you can parse PO files in a build job or at first start of your application and saves parsed json on disk. From your second start of application you can load json file and only imports this json object into electron-gettext. 
+
+* `export()` - Exports the parsed translations from gettext. This could you do e.g. in a build job or at first start of your application. PO Files will normally not change in usage of your application. 
+
 Attribution
 -----------
 
-This library is based in wide parts on [Joshua I. Miller's Javascript Gettext library](http://jsgettext.berlios.de/).
+This library is based in wide parts on [Joshua I. Miller's Javascript Gettext library](http://jsgettext.berlios.de/)
+and [Daniel Baulig's node-gettext] (http://www.danielbaulig.de).
 
 License
 -------
 
-    node-gettext, an Javascript Gettext adaption for node.js
+    electron-gettext, an Javascript Gettext adaption for node.js
 
     Copyright (C) 2008 Joshua I. Miller <unrtst@cpan.org>
     Copyright (C) 2011 Daniel Baulig <daniel.baulig@gmx.de>
+    Copyright (C) 2015 André Meyerjürgens <ameyerjuergens@gmail.com>
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public

@@ -1,14 +1,14 @@
 {
-  "name": "gettext",
+  "name": "electron-gettext",
   "description": "A GNU gettext implementation for node.js",
   "version": "0.0.1",
-  "homepage": "http://github.com/DanielBaulig/node-gettext",
+  "homepage": "http://github.com/daxtero/electron-gettext",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DanielBaulig/node-gettext.git"
+    "url": "git://github.com/daxtero/electron-gettext.git"
   },
-  "author": "Daniel Baulig <daniel.baulig@gmx.de> (http://www.danielbaulig.de)",
-  "contributors": ["dodo (https://github.com/dodo)"],
+  "author": "André Meyerjürgens <ameyerjuergens@gmail.com>",
+  "contributors": ["daxtero (https://github.com/daxtero)"],
   "main": "./lib/gettext.js",
   "directories": {
     "lib": "lib"
@@ -26,5 +26,6 @@
   },
   "devDependencies": {
     "nodeunit": "0.7.4"
-  }
+  },
+  "license": "LGPL-2.1"
 }
